@@ -1,0 +1,43 @@
+/* ---------- GENERAL ---------- */
+* {
+
+ background-color:#e5fffd;
+
+}
+
+div.content {
+	width:500px;
+	margin-top:10%;
+	margin-bottom:5%;
+	margin-left:38%;
+	margin-right:30%;
+}
+
+/* ---------- TEXT ---------- */
+
+h3 {
+
+	color:#00c6bc;
+	font-family:monospace;
+	font-size:30px;
+
+}
+
+form {
+
+	color:#004432;
+
+}
+
+input {
+	background-color:white;
+	margin:2px;
+}
+
+select {
+	background-color: white;
+}
+
+p {
+	color:#004432;
+}

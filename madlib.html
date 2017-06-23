@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/madlib.css">
+
+	</head>
+
+	<body>
+
+		<div class="content">
+
+			<!-- MADLIBS APPLICATION -->
+			<h3>Create Your Adventure!</h3>
+
+			<form action="madlib.php" method="get">
+
+				<br/>
+				Enter 1st adjective: <input type="text" name="a1">
+				<br/>
+				Enter 2nd adjective: <input type="text" name="a2">
+				<br/>
+				<br/>
+				Enter 1st noun: <input type="text" name="n1">
+				<br/>
+				Enter 2nd noun: <input type="text" name="n2">
+				<br/>
+				Enter 3rd noun: <input type="text" name="n3">
+				<br/>
+				<br/>
+				Enter 1st verb: <input type="text" name="v1">
+				<br/>
+				Enter 2nd verb: <input type="text" name="v2">
+				<br/>
+				<br/>
+				Enter 1st number: <input type="text" name="num1">
+				<br/>
+				<br/>
+				<input type="submit">
+
+			</form>
+
+		</div>
+
+		<div class="content">
+
+			<!-- CALCULATOR APPLICATION -->
+			<h3>Calculate!</h3>
+
+			<form action="add.php" method="get" name="calculator">
+
+				<br/>
+				Enter your first number: <input type="number" name="cnum1">
+				<br/>
+				Enter your second number: <input type="number" name="cnum2">
+				<br/>
+				Choose an operator: <select name="operator">
+					<option disabled selected value> -- select an operator -- </option>
+					<option value="plus">+</option>
+					<option value="minus">-</option>
+					<option value="multiply">*</option>
+					<option value="divide">/</option>
+				</select>
+				<br/>
+				<br/>
+				<input type="submit"> 
+				<input type="reset">
+			</form>
+
+		</div>
+
+		<div class="content">
+
+			<!-- ONLINE STORE APPLICATION -->
+			<h3>Online Shopping!</h3>
+
+			<form action="online.php" method="post" name="shopping">
+
+				<br/>
+				Name: <input type="text" name="name">
+				<br/>
+				Email: <input type="email" name="email">
+				<br/>
+				Choose a product: <select name="products">
+					<option disabled selected value> -- select product -- </option>
+					<option value="tea">Tea</option>
+					<option value="coffee">Coffee</option>
+				</select>
+				<br/>
+				Quantity for each product: <input type="number" name="quantity">
+				<br/>
+				<br/>
+				<input type="submit">
+				<input type="reset">
+
+			</form>			
+
+		</div>
+
+		<div class="content">
+
+			<!-- ONLINE QUIZ APPLICATION -->
+			<h3>Online Quiz!</h3>
+
+			<form action="quiz.php" method="post" name="quiz">
+
+				<br/>
+				First Name: <input type="text" name="fn">
+				<br/>
+				Last Name: <input type="text" name="ln">
+				<br/>
+				<br/>
+				Which song was featured in any of the Shrek movie soundtracks?
+				<br/>
+				<input type="radio" name="q1" value="1a"> "I Will Survive"
+				<br/>
+				<input type="radio" name="q1" value="1b"> "I Need A Hero"
+				<br/>
+				<input type="radio" name="q1" value="1c"> "Uptown Funk"
+				<br/>
+				<br/>
+				In which Shrek movie did Shrek say he didn't want baby ogres?
+				<br/>
+				<input type="radio" name="q2" value="2a"> Shrek 2
+				<br/>
+				<input type="radio" name="q2" value="2b"> Shrek 3
+				<br/>
+				<input type="radio" name="q2" value="2c"> Shrek 4
+				<br/>
+				<br/>
+				Ogres are like onions because?
+				<br/>
+				<input type="radio" name="q3" value="3a"> They make you cry.
+				<br/>
+				<input type="radio" name="q3" value="3b"> They smell fresh.
+				<br/>
+				<input type="radio" name="q3" value="3c"> They have layers.
+				<br/>
+				<br/>
+				<input type="submit">
+				<input type="reset">	
+
+			</form>
+		</div>
+
+	</body>
+
+</html>
